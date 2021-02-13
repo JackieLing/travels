@@ -62,7 +62,7 @@
                     <div class="label-text">密&emsp;码：</div>
                     <input type="password" v-model="user.password" name="password">
                 </label>
-                <img :src="src" :key="key" @click="getImage" id="img-vcode">
+                <img :src="http:/localhost:8989/user/getImage" :key="key" @click="getImage" id="img-vcode">
                 <label>
                     <div class="label-text">验证码：</div>
                     <input type="text" v-model="code" name="vcode" style="width: 100px">
